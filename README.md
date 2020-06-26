@@ -1,6 +1,7 @@
 # catan-simulator
 
 ### This project simulates and records the results of a game of Settlers of Catan with 4 computer players.
+See Video: https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/catan_simulation.mp4
 
 ![Board](https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/Images/Board.PNG?raw=true)
 
