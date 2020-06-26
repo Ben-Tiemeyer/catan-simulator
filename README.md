@@ -2,7 +2,7 @@
 
 ### This project simulates and records the results of a game of Settlers of Catan with 4 computer players.
 
-
+![Board](https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/Images/Board.PNG?raw=true)
 
 For each simulation run, the following data is stored:
 - The amount of probability pips that each player started adajcent to for each resource
