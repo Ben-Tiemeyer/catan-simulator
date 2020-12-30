@@ -34,11 +34,13 @@ The four computer (AI) players simulate a game of Catan by all playing according
         - A city remaining <br/>
         - The needed resources<br/>
         - An available settlement on which to build<br/>
-    3) A settlement is built if the player:<br/>
+    3) A settlement is built if the player has:<br/>
         - A settlement remaining<br/>
         - The needed resources<br/>
         - An available spot to build that is not adjacent to another settlement/city<br/>
-    4) A development card is purchased if the player has the available resources to purchase a development card<br/>
+    4) A development card is purchased if:
+        - The player has the needed resources<br/>
+        - There are still remaining development cards to be purchased<br/>
     5) A road is built if the player has: <br/>
         - A road remaining<br/>
         - The needed resources<br/>
