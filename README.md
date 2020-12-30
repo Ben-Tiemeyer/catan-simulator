@@ -29,12 +29,12 @@ The four computer (AI) players simulate a game of Catan by all playing according
 - Roads are built towards the avialable spot with the highest cumulative probability pips that is only 1 spot away (regardless of resource)<br/>
     - If no spots are available to build 1 spot away, it then searches 2 spots away, and so on until it can find an available spot to build towards<br/>
 - Cards are used by the AI players each turn in the following sequence:<br/>
-    1) Any avaiable development cards are used<br/>
+    1) Any avaiable development cards are played<br/>
     2) A city is built if the player has: <br/>
         - A city remaining <br/>
         - The needed resources<br/>
         - An available settlement on which to build<br/>
-    3) A settlement is if the player:<br/>
+    3) A settlement is built if the player:<br/>
         - A settlement remaining<br/>
         - The needed resources<br/>
         - An available spot to build that is not adjacent to another settlement/city<br/>
@@ -44,4 +44,6 @@ The four computer (AI) players simulate a game of Catan by all playing according
         - The needed resources<br/>
         - An available spot to build<br/>
     6) If the player still has 4 remaining cards of any particular resource, they trade in those 4 cards for 1 card of the resource that they have the least of<br/>
-      
+    
+## Limitations
+This simulation does not include trading resources among players, or the discount trading ports on the tiles at the edge of the map.<br/>
