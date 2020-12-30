@@ -27,7 +27,7 @@ Using Linear Regression on a data set comprised of 1,000 Game Simulations
 The four computer (AI) players simulate a game of Catan by all playing according to the following policies:<br/>
 - Settlements and Cities are built upon the available spot with the highest cumulative probability pips (regardless of resource types)<br/>
 - Roads are built towards the avialable spot with the highest cumulative probability pips that is only 1 spot away (regardless of resource types)<br/>
-    - If no spots are available to build 1 spot away, it then searches 2 spots away, and so on until it can find an available spot to build towards<br/>
+    - If no spots are available to build 1 spot away, it then searches 2 spots away, and so on until it can find an available spot to build towards (see Board Network Model below)<br/>
 - Cards are used by the AI players each turn in the following sequence:<br/>
     1) Any avaiable development cards are played<br/>
     2) A city is built if the player has: <br/>
