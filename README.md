@@ -31,8 +31,8 @@ The four computer (AI) players simulate a game of Catan by all playing according
 - Cards are used by the AI players each turn in the following sequence:<br/>
     1) Any avaiable development cards are used<br/>
     2) A city is built if the player has: <br/>
-        - A city remaining, <br/>
-        - The needed resources, <br/>
+        - A city remaining <br/>
+        - The needed resources<br/>
         - An available settlement on which to build<br/>
     3) A settlement is if the player:<br/>
         - A settlement remaining<br/>
@@ -41,6 +41,7 @@ The four computer (AI) players simulate a game of Catan by all playing according
     4) A development card is purchased if the player has the available resources to purchase a development card<br/>
     5) A road is built if the player has: <br/>
         - A road remaining<br/>
+        - The needed resources<br/>
         - An available spot to build<br/>
-    6) If the player has 4 remaining cards of any resource, they will trade in those 4 cards for 1 card of the resource that they have the least of<br/>
+    6) If the player still has 4 remaining cards of any particular resource, they trade in those 4 cards for 1 card of the resource that they have the least of<br/>
       
