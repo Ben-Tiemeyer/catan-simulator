@@ -21,4 +21,6 @@ This data is saved to a csv in the following format, with each row representing 
 ### With enough simulations, this data can be used to calculate each resource's relative value.
 Using Linear Regression on a data set comprised of 1,000 Game Simulations
 
-![Resource Values](https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/Images/Starting_Resource_Values.png?raw=true)
+![Resource Values](https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/Images/Starting_Resource_Values.png?raw=true)<br/><br/>
+
+<b>Methodology<b/>
