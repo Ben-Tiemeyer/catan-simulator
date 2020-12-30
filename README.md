@@ -45,7 +45,7 @@ The four computer (AI) players simulate a game of Catan by all playing according
         - A road remaining<br/>
         - The needed resources<br/>
         - An available spot to build<br/>
-    6) If the player still has 4 remaining cards of any particular resource, they trade in those 4 cards for 1 card of the resource that they have the least of<br/><br/>
+    6) If the player still has 4 remaining cards of any particular resource, they trade in those 4 cards for 1 card of their most scarce resource type<br/><br/>
 
 ## Board Network Model
 The network of avaialble spots to build on is maintained for each player in a networkx (networkx.org) network.<br/><br/>
