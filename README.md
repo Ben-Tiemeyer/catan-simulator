@@ -45,8 +45,8 @@ The four computer (AI) players simulate a game of Catan by all playing according
         - An available spot to build<br/>
     6) If the player still has 4 remaining cards of any particular resource, they trade in those 4 cards for 1 card of the resource that they have the least of<br/><br/>
 
-## Tile Network
-
+## Board Network Modeling
+![BoardNetwork](https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/Images/board_network.png?raw=true)
 
 ## Limitations
 This simulation does not include trading resources among players, or the discount trading ports on the tiles at the edge of the map.<br/>
