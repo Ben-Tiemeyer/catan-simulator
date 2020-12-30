@@ -30,18 +30,17 @@ The four computer (AI) players simulate a game of Catan by all playing according
     - If no spots are avaialble to build 1 spot away, then searches 2 spots away, and so on until it can find an available spot to build towards<br/>
 - Cards are used by the AI players each turn in the following sequence:<br/>
     1) Any avaiable development cards are used<br/>
-    2) A city is built if the player: <br/>
-        - has a city remaining, <br/>
-        - has the needed resources, <br/>
-        - has an available settlement on which to build<br/>
-            - 3) A settlement is if the player:<br/>
-                  has a settlement remaining<br/>
-                  has the resources<br/>
-                  has an available spot to build that is not adjacent to another settlement/city<br/>
-            - 4) A development card is purchased if the player has the available resources to purchase a development card<br/>
-            - 5) A road is built if the player <br/>
-                  has a road remaining<br/>
-                  has the resources to build a road<br/>
-                  has an available spot to build<br/>
-            - 6) If the player has 4 remaining cards of any resource, they will trade in those 4 cards for 1 card of the resource that they have the least of<br/>
+    2) A city is built if the player has: <br/>
+        - A city remaining, <br/>
+        - The needed resources, <br/>
+        - An available settlement on which to build<br/>
+    3) A settlement is if the player:<br/>
+        - A settlement remaining<br/>
+        - The needed resources<br/>
+        - An available spot to build that is not adjacent to another settlement/city<br/>
+    4) A development card is purchased if the player has the available resources to purchase a development card<br/>
+    5) A road is built if the player has: <br/>
+        - A road remaining<br/>
+        - An available spot to build<br/>
+    6) If the player has 4 remaining cards of any resource, they will trade in those 4 cards for 1 card of the resource that they have the least of<br/>
       
