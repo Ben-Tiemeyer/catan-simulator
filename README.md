@@ -53,7 +53,10 @@ Each player starts with a network with the following starting edges and nodes.<b
 Each time a player builds a settlement (node) or road (edge), that node or edge is removed from every other player's network.<br/><br/>
 <b>For example:<b/><br/>
 - If Player 1 built a settlement at Node '05', that Node and all edges connected to that node would be removed from every other player's network<br/>
-- If Player 1 built a road at edge 01-06, that edge would be removed from every other player's network<br/>
+    - Also, all adjacent nodes to that node would be appended to the 'No Build' list for the remainder of the game
+- If Player 1 built a road at edge 01-06, that edge would be removed from every other player's network<br/><br/>
+      
+Each individual player's network is maintained throughout the game, as well as the nodes that each player is currently on, this is what allows each player to search for the closest available nodes to built on in order to determine which direction to build their next road.<br/> 
 
 ## Limitations
 This simulation does not include trading resources among players, or the discount trading ports on the tiles at the edge of the map.<br/>
