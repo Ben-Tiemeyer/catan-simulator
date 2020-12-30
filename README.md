@@ -23,4 +23,4 @@ Using Linear Regression on a data set comprised of 1,000 Game Simulations
 
 ![Resource Values](https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/Images/Starting_Resource_Values.png?raw=true)<br/><br/>
 
-<b>Methodology<b/>
+## Methodology
