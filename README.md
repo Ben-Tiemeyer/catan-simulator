@@ -43,7 +43,10 @@ The four computer (AI) players simulate a game of Catan by all playing according
         - A road remaining<br/>
         - The needed resources<br/>
         - An available spot to build<br/>
-    6) If the player still has 4 remaining cards of any particular resource, they trade in those 4 cards for 1 card of the resource that they have the least of<br/>
-    
+    6) If the player still has 4 remaining cards of any particular resource, they trade in those 4 cards for 1 card of the resource that they have the least of<br/><br/>
+
+## Tile Network
+
+
 ## Limitations
 This simulation does not include trading resources among players, or the discount trading ports on the tiles at the edge of the map.<br/>
