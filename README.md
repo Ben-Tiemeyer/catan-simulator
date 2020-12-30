@@ -51,8 +51,9 @@ Each player starts with a network with the following starting edges and nodes.<b
 ![BoardNetwork](https://github.com/Ben-Tiemeyer/catan-simulator/blob/master/Images/board_network.png?raw=true)
 <br/>
 Each time a player builds a settlement (node) or road (edge), that node or edge is removed from every other player's network.<br/><br/>
-For example, if Player 1 built a settlement at Node '05', that Node and all edges connected to that node would be removed from every other player's network<br/>
-In the same way, if Player 1 built a road at edge 01-06, that edge would be removed from every other player's network<br/>
+<b>For example:<b/><br/>
+- If Player 1 built a settlement at Node '05', that Node and all edges connected to that node would be removed from every other player's network<br/>
+- If Player 1 built a road at edge 01-06, that edge would be removed from every other player's network<br/>
 
 ## Limitations
 This simulation does not include trading resources among players, or the discount trading ports on the tiles at the edge of the map.<br/>
